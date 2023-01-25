@@ -34,7 +34,7 @@ EXAMPLE RESPONSE:
 
 `{"payment_id":"f3df665d-7378-449f-88fc-f5dfa443951e"}`  
 <br />
-
+<br />
 #### Step 2 - Get User
 
 GET : `/v1.0/user?id=user_id`
@@ -46,8 +46,8 @@ EXAMPLE REQUEST:
 EXAMPLE RESPONSE:
 
 `{"ID":"Ilyha","Balance":100}`  
-  
-  
+<br />
+<br />
 #### Step 3 - Get Transaction Info by id
 
 GET : `/v1.0/payment?id=tx_id`
@@ -59,8 +59,8 @@ EXAMPLE REQUEST:
 EXAMPLE RESPONSE:
 
 `{"ID":"f3df665d-7378-449f-88fc-f5dfa443951e","UserID":"Ilyha","Amount":100,"TxType":"deposit"}`  
-
-
+<br />
+<br />
 #### Step 4 - Withdraw
 
 POST : `/v1.0/payment`
