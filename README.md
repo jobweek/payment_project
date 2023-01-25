@@ -10,15 +10,15 @@
 
 ### Workflow
 
-Step 1 - Registration User and Deposit
+#### Step 1 - Registration User and Deposit
 
-POST : /v1.0/payment
+POST : `/v1.0/payment`
 
-BODY : {
+BODY : `{
 "user_id":string,
 "amount":number,
 "tx_type":string
-}
+}`
 
 EXAMPLE:  
 
@@ -30,31 +30,31 @@ http://localhost:8088/v1.0/payment
 "tx_type":"deposit"
 }
 
-Step 2 - Get User
+#### Step 2 - Get User
 
-GET : /v1.0/user?id=user_id
+GET : `/v1.0/user?id=user_id`
 
 EXAMPLE:  
 
 http://localhost:8088/v1.0/user?id=Ilyha
 
-Step 3 - Get Transaction Info by id
+#### Step 3 - Get Transaction Info by id
 
-GET : /v1.0/payment?id=tx_id
+GET : `/v1.0/payment?id=tx_id`
 
 EXAMPLE:
 
 http://localhost:8088/v1.0/payment?id=5bf8c5ce-b9c7-4c64-949a-e9655e82bcfd
 
-Step 4 - Withdraw
+#### Step 4 - Withdraw
 
-POST : /v1.0/payment
+POST : `/v1.0/payment`
 
-BODY : {
+BODY : `{
 "user_id":string,
 "amount":number,
 "tx_type":string
-}
+}`
 
 EXAMPLE:
 
