@@ -46,8 +46,8 @@ EXAMPLE REQUEST:
 EXAMPLE RESPONSE:
 
 `{"ID":"Ilyha","Balance":100}`  
-
-
+  
+  
 #### Step 3 - Get Transaction Info by id
 
 GET : `/v1.0/payment?id=tx_id`
