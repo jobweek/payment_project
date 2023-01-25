@@ -32,7 +32,7 @@ EXAMPLE REQUEST:
 
 EXAMPLE RESPONSE:
 
-`{"payment_id":"f3df665d-7378-449f-88fc-f5dfa443951e"}`
+`{"payment_id":"f3df665d-7378-449f-88fc-f5dfa443951e"}`  
 
 
 #### Step 2 - Get User
@@ -45,8 +45,7 @@ EXAMPLE REQUEST:
 
 EXAMPLE RESPONSE:
 
-`{"ID":"Ilyha","Balance":100}`
-
+`{"ID":"Ilyha","Balance":100}`  
 
 
 #### Step 3 - Get Transaction Info by id
@@ -59,8 +58,7 @@ EXAMPLE REQUEST:
 
 EXAMPLE RESPONSE:
 
-`{"ID":"f3df665d-7378-449f-88fc-f5dfa443951e","UserID":"Ilyha","Amount":100,"TxType":"deposit"}`
-
+`{"ID":"f3df665d-7378-449f-88fc-f5dfa443951e","UserID":"Ilyha","Amount":100,"TxType":"deposit"}`  
 
 
 #### Step 4 - Withdraw
