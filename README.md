@@ -33,7 +33,7 @@ EXAMPLE REQUEST:
 EXAMPLE RESPONSE:
 
 `{"payment_id":"f3df665d-7378-449f-88fc-f5dfa443951e"}`  
-
+<br />
 
 #### Step 2 - Get User
 
