@@ -22,9 +22,9 @@ BODY : `{
 
 EXAMPLE REQUEST:  
 
-`http://localhost:8088/v1.0/payment
+`http://localhost:8088/v1.0/payment`
 
-{
+`{
 "user_id":"Ilyha",
 "amount":100,
 "tx_type":"deposit"
@@ -33,6 +33,8 @@ EXAMPLE REQUEST:
 EXAMPLE RESPONSE:
 
 `{"payment_id":"f3df665d-7378-449f-88fc-f5dfa443951e"}`
+
+
 
 #### Step 2 - Get User
 
@@ -46,6 +48,8 @@ EXAMPLE RESPONSE:
 
 `{"ID":"Ilyha","Balance":100}`
 
+
+
 #### Step 3 - Get Transaction Info by id
 
 GET : `/v1.0/payment?id=tx_id`
@@ -57,6 +61,8 @@ EXAMPLE REQUEST:
 EXAMPLE RESPONSE:
 
 `{"ID":"f3df665d-7378-449f-88fc-f5dfa443951e","UserID":"Ilyha","Amount":100,"TxType":"deposit"}`
+
+
 
 #### Step 4 - Withdraw
 
@@ -70,9 +76,9 @@ BODY : `{
 
 EXAMPLE REQUEST:
 
-`http://localhost:8088/v1.0/payment
+`http://localhost:8088/v1.0/payment`
 
-{
+`{
 "user_id":"Ilyha",
 "amount":50,
 "tx_type":"withdraw"
