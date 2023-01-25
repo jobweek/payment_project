@@ -84,7 +84,8 @@ EXAMPLE REQUEST:
 EXAMPLE RESPONSE:
 
 `{"payment_id":"2126c627-294a-47b0-bb96-7e383615859d"}`
-
+<br />
+<br />
 ### Pjoject Architecture Visualisation
 
 ![Image](documentation_resources/v1.0.png)
