@@ -36,6 +36,7 @@ EXAMPLE RESPONSE:
 
 
 
+
 #### Step 2 - Get User
 
 GET : `/v1.0/user?id=user_id`
